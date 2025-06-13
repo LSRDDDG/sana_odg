@@ -1,0 +1,68 @@
+
+        body{background-color:rgb(178, 208, 209)} 
+        header {
+            background-color:rgb(167, 216, 69) ;
+            color:red;
+            font-size: xx-large;
+            text-align: center;
+            font-family:'Arial Narrow';
+        }
+         h2 {background-color: orangered;
+            color:black ;
+            text-align: center;
+        }
+         main{font-size: x-large;
+            font-family: Arial;
+        }
+         nav{text-align: center;
+            text-decoration: solid;
+            font-size: xx-large;
+            color: darkblue;
+            background-color: chocolate;
+            margin-top: 20%;
+            margin-bottom: 20%;
+        }
+         footer{
+            text-align: center;
+            margin-top: 30%;
+            background-color:yellow;
+            font-size: xx-large;
+            font-family:'Arial Narrow';
+        }
+         img{
+            width:100%;
+            height:auto;}
+         a{
+            text-align: center;
+            font-size: xx-large;
+        }
+        table{
+            border-spacing: 50px;
+        }
+        
+        @media(min-width:600){
+            .body{
+                font-size: 14px;
+                transform:rotate(0deg) ;
+                
+            }
+        }
+        @media(min-width:601){
+            .body{
+                font-size: 16px;
+                transform:rotate(2deg) ;
+                
+            }
+        }
+    @media(min-width:1025){
+            .body{
+                font-size: 18px;
+                transform:rotate(5deg) ;
+                text-decoration: ;
+            }
+    }
+    @media(){
+        
+    }
+    
+    
