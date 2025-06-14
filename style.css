@@ -1,5 +1,5 @@
 
-       /* body{background-color:rgb(178, 208, 209)} 
+       body{background-color:rgb(178, 208, 209)} 
         header {
             background-color:rgb(167, 216, 69) ;
             color:red;
@@ -96,7 +96,7 @@
         .table{
             font-size: 14px;
         }
-    }*/
+    }
     
 
 
@@ -213,9 +213,14 @@ form {
     select {
         width: 100%;
     }
-    .table{
+    th, td {
         display: block;
         width:100%;
+        box-sizing:border-box ;
+    }
+    tr{
+        margin-bottom: 15px;
+        display: block;
     }
     footer{
         font-size: 1em;
