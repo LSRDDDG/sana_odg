@@ -37,7 +37,8 @@
             font-size: xx-large;
         }
         table{
-            border-spacing: 50px;
+            border-spacing:20px;
+            text-align: center;
         }
         
         @media(min-width:600){
@@ -70,7 +71,8 @@
             }
             .header{
             font-size: 18px;
-            transform:rotate(5deg)
+            transform:rotate(5deg);
+            
     }
 }
        
