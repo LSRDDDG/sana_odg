@@ -43,22 +43,22 @@
             transform: ;
         }
   */      
-    /* Styles généraux */
+    
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Header */
+
 header {
-    background-color: #3A6351;
+    background-color: rgb(228, 228, 131)8, 228, 131);
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-/* Tableau */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -75,13 +75,13 @@ th {
     color: white;
 }
 
-/* Images */
+
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
-/* Liens */
+
 a {
     text-decoration: none;
     color: #3A6351;
@@ -92,7 +92,7 @@ a:hover {
     color: #FFB400;
 }
 
-/* Footer */
+
 footer {
     background-color: #3A6351;
     color: white;
@@ -103,7 +103,7 @@ footer {
     width: 100%;
 }
 
-/* Responsive Design */
+
 @media screen and (max-width: 768px) {
     table {
         display: block;
