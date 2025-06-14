@@ -133,12 +133,6 @@ main {
     margin: 20px 0;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
-
 th, td {
     padding: 10px;
     text-align: left;
@@ -202,25 +196,34 @@ form {
     select {
         width: 100%;
     }
+}
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: auto; /* Permet aux colonnes de s'ajuster automatiquement */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    word-wrap: break-word; /* Permet de couper le texte si nécessaire */
+}
+
+@media (max-width: 600px) {
     table {
-        display: block;
+        display: block; /* Permet le défilement horizontal */
         overflow-x: auto;
     }
 
-    thead {
-        display: none; /* Masque l'en-tête sur les petits écrans */
+    th, td {
+        display: block; /* Affiche chaque cellule comme un bloc */
+        width: 100%; /* Chaque cellule prend la largeur totale */
+        box-sizing: border-box; /* Inclut le padding dans la largeur */
     }
 
     tr {
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    td {
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid #ccc;
-        min-width: 150px; /* Largeur minimale des cellules */
+        margin-bottom: 10px; /* Espace entre les lignes */
     }
 }
