@@ -1,5 +1,5 @@
 
-        body{background-color:rgb(178, 208, 209)} 
+       /* body{background-color:rgb(178, 208, 209)} 
         header {
             background-color:rgb(167, 216, 69) ;
             color:red;
@@ -96,8 +96,7 @@
         .table{
             font-size: 14px;
         }
-    }
-    
+    }*/
     
 
 
@@ -187,7 +186,7 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     margin-top: 20px;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 /* Styles pour le formulaire */
@@ -213,5 +212,9 @@ form {
     input[type="date"],
     select {
         width: 100%;
+    }
+    .table{
+        display: block;
+        width:100%;
     }
 }
