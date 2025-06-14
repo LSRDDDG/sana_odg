@@ -38,7 +38,7 @@
         }
         table{
             border-spacing:20px;
-            text-align: center;
+            text-align: left;
             position: ;
             transform: ;
         }
@@ -213,13 +213,9 @@ form {
     select {
         width: 100%;
     }
-    th, td {
+    .table{
         display: block;
-        width:100%;
-    }
-    tr{
-        margin-bottom: 15px;
-        display:flex;
+        overflow: auto;
     }
     footer{
         font-size: 1em;
@@ -241,13 +237,9 @@ form {
     select {
         width: 100%;
     }
-    th, td {
+    .table{
         display: block;
-        width:100%;
-    }
-    tr{
-        margin-bottom: 15px;
-        display:flex;
+        overflow: auto;
     }
     footer{
         font-size: 1em;
