@@ -1,5 +1,5 @@
 
-       body{background-color:rgb(178, 208, 209)} 
+      /* body{background-color:rgb(178, 208, 209)} 
         header {
             background-color:rgb(167, 216, 69) ;
             color:red;
@@ -42,113 +42,80 @@
             position: ;
             transform: ;
         }
-        
-        @media(max-width:600px){
-	.body{
-		font-size: 14px;
-		transform: rotate(0deg);
-	}
-
-      @media(max-width:768px){
-	.body{
-		font-size: 14px;
-		transform: rotate(0deg);
-	}
-    table,th,td {
-        font-size: 0.9em;
-    }
-	
-}
-@media(min-width:601px){
-	.body{
-		font-size: 16px;
-		transform: rotate(2deg);
-	}
-	
-}
-@media(max-width:1025px){
-	.body{
-		font-size: 18px;
-		transform: rotate(5deg);
-		text-decoration: ;
-	}
-	
-}
-
-
-    /* Réinitialisation des marges et des paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+  */      
+    /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #3A6351;
+    color: white;
+    text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
 }
 
-
-h1, h2 {
-    color: #333;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-main {
-    margin: 20px 0;
+/* Tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
 th, td {
     padding: 10px;
-    text-align: left;
+    border: 1px solid #ddd;
+    text-align: center;
 }
 
 th {
-    background-color: #007BFF;
+    background-color: #3A6351;
     color: white;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="date"],
-select {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-input[type="submit"] {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
+/* Liens */
+a {
+    text-decoration: none;
+    color: #3A6351;
+    font-weight: bold;
 }
 
-input[type="submit"]:hover {
-    background: #0056b3;
+a:hover {
+    color: #FFB400;
 }
 
+/* Footer */
 footer {
+    background-color: #3A6351;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-    font-size: 0.8em;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-/* Styles pour le formulaire */
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+    }
 
+    th, td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    header {
+        padding: 10px;
+    }
+}
