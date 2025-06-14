@@ -43,61 +43,28 @@
             transform: ;
         }
         
-        @media(max-width:600){
-            .body{
-                font-size: 14px;
-                transform:rotate(0deg) ;
-                
-            }
-            .header{
-            font-size: 14px;
-            transform:rotate(0deg)
-         }
-         .table{
-            font-size: 14px;
-        }
-    }
-        @media(max-width:601){
-            .body{
-                font-size: 16px;
-                transform:rotate(2deg) ;
-                
-            }
-            .header{
-            font-size: 16px;
-            transform:rotate(2deg)
-        }
-        .table{
-            font-size: 14px;
-        }
-    }
-    @media(max-width:1025){
-            .body{
-                font-size: 18px;
-                transform:rotate(5deg) ;
-                text-decoration: ;
-            }
-            .header{
-            font-size: 18px;
-            transform:rotate(5deg);
-            
-    }
+        @media(max-width:600px){
+	.body{
+		font-size: 14px;
+		transform: rotate(0deg);
+	}
+	
 }
-       
-
-    @media(max-width:768)
-    {
-        .body{
-            font-size: 14px;
-        }  
-        .nav{
-            display: table-column;
-        } 
-        .table{
-            font-size: 14px;
-        }
-    }
-    
+@media(min-width:601px){
+	.body{
+		font-size: 16px;
+		transform: rotate(2deg);
+	}
+	
+}
+@media(max-width:1025px){
+	.body{
+		font-size: 18px;
+		transform: rotate(5deg);
+		text-decoration: ;
+	}
+	
+}
 
 
     /* Réinitialisation des marges et des paddings */
@@ -176,50 +143,3 @@ form {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Media Queries pour l'adaptabilité */
-@media (max-width: 600px) {
-    header h1, header h2 {
-        font-size: 1.5em;
-    }
-
-    form {
-        padding: 10px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="date"],
-    select {
-        width: 100%;
-    }
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-    table-layout: auto; /* Permet aux colonnes de s'ajuster automatiquement */
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    word-wrap: break-word; /* Permet de couper le texte si nécessaire */
-}
-
-@media (max-width: 600px) {
-    table {
-        display: block; /* Permet le défilement horizontal */
-        overflow-x: auto;
-    }
-
-    th, td {
-        display: block; /* Affiche chaque cellule comme un bloc */
-        width: 100%; /* Chaque cellule prend la largeur totale */
-        box-sizing: border-box; /* Inclut le padding dans la largeur */
-    }
-
-    tr {
-        margin-bottom: 10px; /* Espace entre les lignes */
-    }
-}
