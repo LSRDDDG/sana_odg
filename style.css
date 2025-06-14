@@ -39,6 +39,9 @@
         table{
             border-spacing:20px;
             text-align: center;
+            position: ;
+            transform: ;
+            text-align: center;
         }
         
         @media(min-width:600){
