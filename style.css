@@ -1,48 +1,3 @@
-
-      /* body{background-color:rgb(178, 208, 209)} 
-        header {
-            background-color:rgb(167, 216, 69) ;
-            color:red;
-            font-size: xx-large;
-            text-align: center;
-            font-family:'Arial Narrow';
-        }
-         h2 {background-color: orangered;
-            color:black ;
-            text-align: center;
-        }
-         main{font-size: x-large;
-            font-family: Arial;
-        }
-         nav{text-align: center;
-            text-decoration: solid;
-            font-size: xx-large;
-            color: darkblue;
-            background-color: chocolate;
-            margin-top: 20%;
-            margin-bottom: 20%;
-        }
-         footer{
-            text-align: center;
-            margin-top: 20%;
-            background-color:yellow;
-            font-size: xx-large;
-            font-family:'Arial Narrow';
-        }
-         img{
-            width:100%;
-            height:auto;}
-         a{
-            text-align: center;
-            font-size: xx-large;
-        }
-        table{
-            border-spacing:20px;
-            text-align: left;
-            position: ;
-            transform: ;
-        }
-  */      
     
 body {
     font-family: Arial, sans-serif;
@@ -58,6 +13,14 @@ header {
     padding: 20px;
 }
 
+h1{
+    font-size: 1.9em;
+    background-color:chartreuse;
+}
+h2{
+    font-size: 1.4em;
+    background-color: darkorange;
+}
 
 table {
     width: 100%;
@@ -107,8 +70,8 @@ footer {
 
 @media screen and (max-width: 768px) {
     table {
-        display: block;
-        overflow-x: auto;
+        display:block;
+        overflow-x:visible;
     }
 
     th, td {
