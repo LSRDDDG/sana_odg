@@ -186,7 +186,7 @@ input[type="submit"]:hover {
 footer {
     text-align: center;
     margin-top: 20px;
-    font-size: 1em;
+    font-size: x-large;
 }
 
 /* Styles pour le formulaire */
@@ -216,5 +216,8 @@ form {
     .table{
         display: block;
         width:100%;
+    }
+    footer{
+        font-size: 1em;
     }
 }
