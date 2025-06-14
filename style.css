@@ -24,7 +24,7 @@
         }
          footer{
             text-align: center;
-            margin-top: 30%;
+            margin-top: 20%;
             background-color:yellow;
             font-size: xx-large;
             font-family:'Arial Narrow';
@@ -47,22 +47,27 @@
                 
             }
         }
-        @media(min-width:601){
+        @media(max-width:601){
             .body{
                 font-size: 16px;
                 transform:rotate(2deg) ;
                 
             }
         }
-    @media(min-width:1025){
+    @media(max-width:1025){
             .body{
                 font-size: 18px;
                 transform:rotate(5deg) ;
                 text-decoration: ;
             }
     }
-    @media(){
-        
+       
+
+    @media(min-width:600)
+    {
+        .nav{
+            ;
+        }
     }
     
     
