@@ -46,27 +46,38 @@
                 transform:rotate(0deg) ;
                 
             }
-        }
+            .header{
+            font-size: 14px;
+            transform:rotate(0deg)
+         }
+    }
         @media(max-width:601){
             .body{
                 font-size: 16px;
                 transform:rotate(2deg) ;
                 
             }
+            .header{
+            font-size: 16px;
+            transform:rotate(2deg)
         }
+    }
     @media(max-width:1025){
             .body{
                 font-size: 18px;
                 transform:rotate(5deg) ;
                 text-decoration: ;
             }
+            .header{
+            font-size: 18px;
+            transform:rotate(5deg)
     }
+}
        
 
     @media(min-width:600)
     {
-        .nav{
-            ;
+        
         }
     }
     
